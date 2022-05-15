@@ -12,6 +12,7 @@
 html,body{
 	height: 100%;
     background-color: #121212;
+    scroll-behavior: smooth;
 }
 
 /*  HEADER  */
@@ -74,7 +75,7 @@ header a span{
   letter-spacing: 8px;
 }
 
-/* SOBRE */
+/* CHAMADA */
 
 section.chamada .container-chamada{
   width: 100%;
@@ -235,7 +236,8 @@ section.chamada .img-chamada img:hover{
 
 /*  SOBRE  */
 section.sobre .sobre-container{
-  padding: 100px 4%;
+  padding: 20px 4%;
+  margin-top: 80px;
 }
 
 section.sobre h2{
@@ -301,7 +303,8 @@ section.sobre .img-sobre img{
 
 /*  PROJETOS  */
 section.projetos{
-  padding: 200px 4%;
+  padding: 20px 4%;
+  margin-top: 150px;
 }
 
 section.projetos h2{
@@ -471,7 +474,7 @@ section.projetos .navigation-auto div:not(:last-child){
               0 0 25px #3ed6ff,
               0 0 50px #3ed6ff,
               0 0 200px #3ed6ff;
-   -webkit-box-reflect:below 1px linear-gradient(transparent, #0005);
+   -webkit-box-reflect:below 1px linear-gradient(transparent 60%, #0005);
 }
 
 .border span{
@@ -551,6 +554,10 @@ section.projetos .navigation-auto div:not(:last-child){
 
 
 /*  CONTATO  */
+section.contato{
+  margin-top: 200px;
+}
+
 section.contato h2{
   color: #fff;
   font-size: 40px;
